@@ -23,8 +23,8 @@
     [UMConfigure setLogEnabled:YES];
     [MobClick setAutoPageEnabled:YES];
     [MobClick setAutoEventEnabled:YES];
-    [UMConfigure setCustomDomain:@"log-api-daily.aplus.emas-poc.com" standbyDomain:nil];
-    [UMConfigure initWithAppkey:@"h5u3el6m89moydsirfu2tdq4" channel:@"App Store"];
+    [UMConfigure setCustomDomain:@"您的域名" standbyDomain:nil];
+    [UMConfigure initWithAppkey:@"您的appkey" channel:@"App Store"];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[MainViewController alloc]init];
